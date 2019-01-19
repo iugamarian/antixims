@@ -1,0 +1,76 @@
+System:    Host: antix1 Kernel: 4.19.13-antix.1-amd64-smp x86_64 bits: 64 compiler: gcc v: 6.3.0 Desktop: IceWM 1.4.2 
+           info: icewmtray dm: SLiM 1.3.4 Distro: antiX-17.3.1_x64-full Helen Keller 27 December 2018 
+           base: Debian GNU/Linux 9 (stretch) 
+Machine:   Type: Desktop Mobo: MSI model: Z170A GAMING M3 (MS-7978) v: 2.0 serial: <filter> UEFI [Legacy]: American Megatrends 
+           v: A.D0 date: 07/04/2018 
+Memory:    RAM: total: 15.63 GiB used: 1.05 GiB (6.7%) 
+           Array-1: capacity: 64 GiB slots: 4 EC: None max module size: 16 GiB note: est. 
+           Device-1: ChannelA-DIMM0 size: No Module Installed 
+           Device-2: ChannelA-DIMM1 size: 8 GiB speed: 2133 MHz type: DDR4 detail: synchronous bus width: 64 bits 
+           total: 64 bits manufacturer: 029E part-no: CMK16GX4M2A2133C13 serial: N/A 
+           Device-3: ChannelB-DIMM0 size: No Module Installed 
+           Device-4: ChannelB-DIMM1 size: 8 GiB speed: 2133 MHz type: DDR4 detail: synchronous bus width: 64 bits 
+           total: 64 bits manufacturer: 029E part-no: CMK16GX4M2A2133C13 serial: N/A 
+CPU:       Topology: Quad Core model: Intel Core i5-6400 bits: 64 type: MCP arch: Skylake-S rev: 3 L1 cache: 256 KiB 
+           L2 cache: 6144 KiB L3 cache: 6144 KiB bogomips: 21696 
+           Speed: 1335 MHz min/max: 800/3300 MHz Core speeds (MHz): 1: 800 2: 800 3: 800 4: 800 
+           Flags: 3dnowprefetch abm acpi adx aes aperfmperf apic arat arch_perfmon art avx avx2 bmi1 bmi2 bts clflush 
+           clflushopt cmov constant_tsc cpuid cpuid_fault cx16 cx8 de ds_cpl dtes64 dtherm dts ept ept_ad erms est f16c 
+           flexpriority flush_l1d fma fpu fsgsbase fxsr ht hwp hwp_act_window hwp_epp hwp_notify ibpb ibrs ida intel_pt 
+           invpcid invpcid_single lahf_lm lm mca mce mmx monitor movbe mpx msr mtrr nonstop_tsc nopl nx pae pat pbe pcid 
+           pclmulqdq pdcm pdpe1gb pebs pge pln pni popcnt pse pse36 pti pts rdrand rdseed rdtscp rep_good sdbg sep smap smep 
+           ss ssbd sse sse2 sse4_1 sse4_2 ssse3 stibp syscall tm tm2 tpr_shadow tsc tsc_adjust tsc_deadline_timer 
+           tsc_known_freq vme vmx vnmi vpid x2apic xgetbv1 xsave xsavec xsaveopt xsaves xtopology xtpr 
+Graphics:  Device-1: Advanced Micro Devices [AMD/ATI] Ellesmere [Radeon RX 470/480] vendor: Micro-Star MSI driver: amdgpu 
+           v: kernel bus ID: 01:00.0 chip ID: 1002:67df 
+           Display: server: X.Org 1.19.2 driver: amdgpu,ati unloaded: fbdev,modesetting,radeon,vesa resolution: 1280x720~60Hz 
+           OpenGL: renderer: Gallium 0.4 on AMD POLARIS10 (DRM 3.27.0 / 4.19.13-antix.1-amd64-smp LLVM 3.9.1) 
+           v: 4.3 Mesa 13.0.6 compat-v: 3.0 direct render: Yes 
+Audio:     Device-1: Intel Sunrise Point-H HD Audio vendor: Micro-Star MSI driver: snd_hda_intel v: kernel bus ID: 00:1f.3 
+           chip ID: 8086:a170 
+           Device-2: Advanced Micro Devices [AMD/ATI] vendor: Micro-Star MSI driver: snd_hda_intel v: kernel bus ID: 01:00.1 
+           chip ID: 1002:aaf0 
+           Sound Server: ALSA v: k4.19.13-antix.1-amd64-smp 
+Network:   Device-1: Qualcomm Atheros Killer E2400 Gigabit Ethernet vendor: Micro-Star MSI driver: alx v: kernel port: d000 
+           bus ID: 07:00.0 chip ID: 1969:e0a1 
+           IF: eth0 state: up speed: 1000 Mbps duplex: full mac: <filter> 
+           IP v4: <filter> scope: global broadcast: <filter> 
+           IP v6: <filter> type: mngtmpaddr dynamic scope: global 
+           IP v6: <filter> scope: link 
+           WAN IP: <filter> 
+Drives:    Local Storage: total: 252.67 GiB used: 1.10 GiB (0.4%) 
+           ID-1: /dev/sda vendor: Samsung model: MZ7LM240HMHQ-00005 size: 223.57 GiB speed: 6.0 Gb/s serial: <filter> 
+           rev: 204Q scheme: MBR 
+           ID-2: /dev/sdb type: USB vendor: Generic model: STORAGE DEVICE size: 29.10 GiB serial: <filter> rev: 1532 
+           scheme: MBR 
+           Optical-1: /dev/sr0 vendor: ASUS model: DRW-24B5ST rev: 1.00 dev-links: cdrom 
+           Features: speed: 48 multisession: yes audio: yes dvd: yes rw: cd-r,cd-rw,dvd-r,dvd-ram state: running 
+RAID:      Message: No RAID data was found. 
+Partition: ID-1: / size: 975.9 MiB used: 2.9 MiB (0.3%) fs: overlay source: ERR-102 label: N/A uuid: N/A 
+           ID-2: /home raw size: 250.0 MiB size: <root required> used: <root required> fs: ext4 dev: /dev/loop2 label: N/A 
+           uuid: b2eefab3-955e-4136-9962-ff45db7dd58c 
+           ID-3: /live/boot-dev size: 3.38 GiB used: 1.08 GiB (32.1%) fs: ext4 dev: /dev/sdb1 label: antiX-Live-usb 
+           uuid: 81b5621b-b378-46a8-aabe-bbee80d8fded 
+           ID-4: /live/linux raw size: 1.02 GiB size: <root required> used: <root required> fs: squashfs dev: /dev/loop0 
+           label: N/A uuid: N/A 
+           ID-5: /live/persist-root raw size: 1024.0 MiB size: <root required> used: <root required> fs: ext4 dev: /dev/loop1 
+           label: N/A uuid: de2dbc5f-e673-4d7e-b275-8607eda3b156 
+           ID-6: /media/antiX-uefi size: 49.9 MiB used: 11.8 MiB (23.7%) fs: vfat dev: /dev/sdb2 label: antiX-uefi 
+           uuid: E2A8-FB5E 
+Unmounted: ID-1: /dev/sda1 size: 381.0 MiB fs: ext2 label: N/A uuid: 6ed00f17-71e9-498b-9b95-534e47eb9c22 
+           ID-2: /dev/sda2 size: 223.20 GiB fs: ext4 label: N/A uuid: 6e8d63ba-098d-47c9-b5f0-f48108870211 
+USB:       Hub: 1-0:1 info: Full speed (or root) Hub ports: 16 rev: 2.0 speed: 480 Mb/s chip ID: 1d6b:0002 
+           Device-1: 1-10:2 info: Genesys Logic type: Mass Storage driver: usb-storage interfaces: 1 rev: 2.1 speed: 480 Mb/s 
+           chip ID: 05e3:0749 serial: <filter> 
+           Hub: 1-11:3 info: Genesys Logic 4-port hub ports: 4 rev: 2.1 speed: 480 Mb/s chip ID: 05e3:0610 
+           Device-2: 1-11.2:4 info: Logitech RX 250 Optical Mouse type: Mouse driver: hid-generic,usbhid interfaces: 1 
+           rev: 2.0 speed: 1.5 Mb/s chip ID: 046d:c050 
+           Device-3: 1-11.3:5 info: SiGma Micro Keyboard TRACER Gamma Ivory type: Keyboard,HID driver: hid-generic,usbhid 
+           interfaces: 2 rev: 1.1 speed: 1.5 Mb/s chip ID: 1c4f:0002 
+           Hub: 2-0:1 info: Full speed (or root) Hub ports: 10 rev: 3.0 speed: 5 Gb/s chip ID: 1d6b:0003 
+           Hub: 3-0:1 info: Full speed (or root) Hub ports: 2 rev: 2.0 speed: 480 Mb/s chip ID: 1d6b:0002 
+           Hub: 4-0:1 info: Full speed (or root) Hub ports: 2 rev: 3.1 speed: 10 Gb/s chip ID: 1d6b:0003 
+Sensors:   System Temperatures: cpu: 28.0 C mobo: N/A gpu: amdgpu temp: 30 C 
+           Fan Speeds (RPM): N/A gpu: amdgpu fan: 870 
+Info:      Processes: 162 Uptime: 29m Init: SysVinit v: 2.88 runlevel: 5 default: 5 Compilers: gcc: 6.3.0 alt: 6 
+           Shell: bash (sudo) v: 4.4.12 running in: lxterminal inxi: 3.0.29 
